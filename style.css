@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Raleyway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleyway', sans-serif;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1511920170033-f8396924c348?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80')no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 1.2rem;
+    padding-left: 1em;
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: #E1973F;
+    cursor: pointer;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin: 1.2rem;
+    padding-right: 1em;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    margin: 1.2rem;
+    font-size: 1.4rem;
+    color: #f38a09;
+    align-items: center;
+}
+
+.menu ul li a:hover {
+    color: #fca275;
+}
+
+header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+h1 {
+    color: #E1973F;
+    font-size: 3rem;
+}
+
+p {
+    color: #E1973F;
+    margin: 1.8rem 0;
+    font-size: 1.9rem;
+}
+
+button {
+    font-size: 2rem;
+    padding: 9px 35px;
+    border: none;
+    border-radius: 25px;
+    background: #000;
+    color: #E1973F;
+}
+
+button:hover {
+    background: #E1973F;
+    color: #000;
+}
